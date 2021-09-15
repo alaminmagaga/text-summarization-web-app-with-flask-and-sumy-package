@@ -8,6 +8,5 @@ Jinja2
 MarkupSafe
 Werkzeug
 numpy
-scipy
-scikit-learn
+nlp
 
