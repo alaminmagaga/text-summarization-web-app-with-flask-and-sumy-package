@@ -1,13 +1,11 @@
-Flask
-spacy
-sumy
-numpy
+flask==1.1.2
+spacy==3.0.6
+sumy==0.8.1
+numpy==1.19.2
 gunicorn
 itsdangerous
 Jinja2
 MarkupSafe
 Werkzeug
-numpy
-nlp
-nltk
+
 
