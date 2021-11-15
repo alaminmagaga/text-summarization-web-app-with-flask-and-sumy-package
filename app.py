@@ -1,12 +1,16 @@
 from flask import Flask,render_template,url_for,request
 import time
 import spacy
+import nltk
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
 
+nltk.download('wordnet')
+nltk.download('pros_cons')
+nltk.download('reuters')
 
 nlp = spacy.load("en_core_web_sm")
 
