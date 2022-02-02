@@ -1,8 +1,15 @@
-flask==1.1.2
-sumy==0.8.1
-numpy==1.19.2
-nltk==3.5
-spacy>=2.2.0,<3.0.6
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
+beautifulsoup4
+bs4
+Flask
+nltk
+spacy
+sumy
+thinc
+urllib3
+numpy
+cython
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#egg=en_core_web_sm==2.2.5
+
+
 
 
