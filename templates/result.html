@@ -1,0 +1,124 @@
+
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>result</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet"  href="{{ url_for('static', filename='w3.css') }}">
+ <style type="text/css">
+    
+
+  </style>
+</head>
+
+<body>
+
+<div class='w3-padding w3-teal w3-center'><h1>Text Summarization Result</h1></div>
+  
+</form>
+</div>
+
+  
+</div>
+
+<div class="w3-container w3-padding-24">
+  
+
+  
+  
+<div class="w3-container w3-card">
+ <div class="w3-row">
+
+  <div class="w3-half w3-container ">
+    <h5>Original Text</h5>
+             <p>Reading Time: {{ final_reading_time }} minute </p>
+             <p >{{ctext}}</p>
+            
+</div>
+
+  <div class="w3-half w3-container w3-light-grey">
+    <h5>Summarized Text</h5>
+              
+              <p>Reading Time: <span class="w3-text-teal">{{ summary_reading_time }} minute </span></p>
+        
+            <p>{{ final_summary }}</p>
+            
+          
+  </div>
+</div>
+ 
+   
+
+ </div>
+
+    </div>
+    
+ 
+
+ </div>
+ <div class="w3-center"><a href="{{url_for('index')}}" style="text-decoration:none"><button class="w3-btn w3-teal w3-round-large" style="width:10%;text-decoration:none;" type="submit" value="reset">Back</button></a></div>
+<br>
+
+
+<div class="w3-container w3-teal">
+
+    <div class="w3-row">
+
+  <div class="w3-half w3-container">
+          <h4 >About the App</h4>
+          <p>the app was build with Flask framework,Sumy packages(Lex rank,Isa and luhn) and w3.css(modern css framework) for the application
+.</p>
+Made by <a  href="https://twitter.com/Alamin_Magaga">Alamin M Magaga</a><br/>
+      Founder<a  href="https://twitter.com/Magtech_Dihub"> @Magtech Digital Hub</a>
+
+
+   </div>
+      
+   <div class="w3-half w3-container w3-center">
+          <h4 id="C1">Connect With Me</h4>
+          <ul>
+           <a href="https://web.facebook.com/alaminmusa.magaga" target="_blank" class="white-text">
+            <i class="fa fa-facebook fa-4x"></i>
+            
+          </a>
+          <a href="https://www.youtube.com/channel/UCy3KM0QxpZUTgKjXRVID6-A" target="_blank" >
+            <i class="fa fa-youtube-square fa-4x"></i>
+          
+          </a>
+          
+          <a href="alaminmusamagaga.medium.com" target="_blank" class="white-text">
+            <i class="fa fa-medium fa-4x"></i>
+            
+          </a>
+          
+          <a href="https://www.linkedin.com/in/alamin-musa-magaga-8b388118b" target="_blank" class="white-text">
+            <i class="fa fa-linkedin fa-4x"></i>
+          </a>
+          
+          </a>
+           <a href="https://github.com/alaminmagaga" target="_blank" class="white-text">
+            <i class="fa fa-github-square fa-4x"></i>
+          </a>
+          
+          <a href="https://twitter/Alamin_Magaga" target="_blank" class="white-text">
+            <i class="fa fa-twitter fa-4x"></i>
+        
+          </a>
+         
+          </ul>
+    </div>
+    
+
+    
+      
+      
+      </div>
+      <br>
+    </div>
+
+
+</body>
+</html>
