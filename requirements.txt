@@ -1,3 +1,11 @@
+
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+scipy
+scikit-learn
 beautifulsoup4
 bs4
 Flask
